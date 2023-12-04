@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #557a95;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #7395ae;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #173778;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+main hr {
+  border: 0;
+  background: #7d1818;
+  height: 2px;
+  margin: 50px 84px;
+  margin-top: -50px;
+}
+
+.left {
+  font-size: 2rem;
+  color: #0c3b75;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 0;
+  justify-content: space-evenly;
+}
+
+.firstsection > div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 2.5rem;
+  margin: 70px;
+}
+
+.leftsection .buttons {
+  padding: 35px;
+}
+
+.leftsection .btn {
+  padding: 12px;
+  background: #81a0b7;
+  color: black;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.leftsection .btn:hover {
+  /* font-size: 21px; */
+  color: #22303b;
+}
+
+.rightsection img {
+  width: 600px;
+  height: fit-content;
+}
+
+.blue {
+  color: #d4b10f;
+}
+
+#element {
+  color: #7d1818;
+}
+
+.second-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+hr.second-section {
+  color: black;
+}
+
+.second-section h1 {
+  font-size: 1.8rem;
+}
+
+.first {
+  color: darkgrey;
+}
+
+.second-section .box {
+  background: #7d1818;
+  width: 75vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.second-section .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 30px;
+  position: relative;
+  top: -35px;
+  left: -14px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: black;
+  width: 150px;
+  font-size: 9px;
+}
+
+footer {
+  background-color: #95555a;
+  padding-top: 20px;
+}
+
+.footer {
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer > div {
+  width: 323px;
+}
+
+footer .footer-text-center {
+  text-align: center;
+  color: darkgrey;
+  padding: 50px 0;
+}
